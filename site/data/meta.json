@@ -1,0 +1,23 @@
+{
+ "n_funders": 1875,
+ "n_grants_mn": 23963,
+ "n_grants": 44375,
+ "n_orgs": 38148,
+ "n_orgs_with_grants": 11937,
+ "n_open": 461,
+ "n_open_with_apply": 456,
+ "years": [
+  [
+   "2024",
+   41452
+  ],
+  [
+   "2023",
+   2867
+  ],
+  [
+   "2022",
+   56
+  ]
+ ]
+}

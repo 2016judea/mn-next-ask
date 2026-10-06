@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Next Ask</title>
+<meta name="description" content="Free for Minnesota nonprofits: type your name, see every foundation that already funds you, and the ones to ask next, with how to apply.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23205c4a'/><path d='M9 17h11m-5-6 6 6-6 6' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+<style>
+:root{--bg:#f7f5f0;--card:#fff;--ink:#1d2320;--mute:#5d6862;--line:#e3e0d8;--acc:#205c4a;--acc2:#e8f1ed;--warn:#8a5a12}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#141816;--card:#1d2320;--ink:#ecefed;--mute:#9aa59f;--line:#2e3632;--acc:#7cc4a8;--acc2:#1f2e28;--warn:#e0b25c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+main{max-width:720px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:28px;line-height:1.15;margin:4px 0 6px;letter-spacing:-.01em}
+h2{font-size:20px;margin:28px 0 4px}
+.sub{color:var(--mute);margin:0 0 16px}
+.brand{font-weight:700;color:var(--acc);font-size:15px;letter-spacing:.04em;text-transform:uppercase}
+#q{width:100%;font-size:18px;padding:14px 14px;border:2px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);outline:none}
+#q:focus{border-color:var(--acc)}
+#hits{list-style:none;margin:6px 0 0;padding:0}
+#hits li button{display:block;width:100%;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:6px 0;font:inherit;color:inherit;cursor:pointer;min-height:48px}
+#hits li button:hover{border-color:var(--acc)}
+.small{font-size:14px;color:var(--mute)}
+.who{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-top:16px}
+.who h1{font-size:24px;margin:0}
+.big{display:flex;gap:12px;margin-top:12px}
+.big div{flex:1;background:var(--acc2);border-radius:10px;padding:10px 12px}
+.big b{display:block;font-size:28px;line-height:1.1;color:var(--acc)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.chip{font-size:14px;border:1px solid var(--line);border-radius:999px;padding:6px 12px;background:var(--card);color:var(--ink);cursor:pointer;font-family:inherit}
+.chip.on{background:var(--acc);border-color:var(--acc);color:#fff}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:10px 0}
+.card h3{margin:0;font-size:18px;line-height:1.25}
+.rank{color:var(--acc);font-weight:700;margin-right:6px}
+.why{margin:8px 0 0;padding:0;list-style:none}
+.why li{font-size:15px;margin:3px 0;padding-left:18px;position:relative}
+.why li:before{content:"✓";position:absolute;left:0;color:var(--acc);font-weight:700}
+.money{font-size:15px;margin-top:6px}
+.money b{color:var(--acc)}
+details{margin-top:10px;border-top:1px solid var(--line);padding-top:8px}
+summary{cursor:pointer;color:var(--acc);font-weight:600;font-size:15px;min-height:32px;display:flex;align-items:center}
+dl{margin:6px 0 0;display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:15px}
+dt{color:var(--mute)}
+dd{margin:0;overflow-wrap:anywhere}
+a{color:var(--acc)}
+.renew td,.renew th{padding:8px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;font-size:15px}
+.renew{width:100%;border-collapse:collapse;background:var(--card);border-radius:12px}
+.renew td.n{text-align:right;white-space:nowrap}
+.more{display:block;width:100%;padding:12px;margin:8px 0;font:inherit;border:1px solid var(--acc);color:var(--acc);background:transparent;border-radius:10px;cursor:pointer}
+.empty{color:var(--mute);background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:14px}
+textarea{width:100%;min-height:260px;font:15px/1.45 inherit;font-family:inherit;padding:10px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}
+.prof input{width:100%;font-size:16px;padding:10px;border:1px solid var(--line);border-radius:8px;margin:4px 0 10px;background:var(--bg);color:var(--ink);font-family:inherit}
+.prof label{font-size:14px;color:var(--mute)}
+.btn{font:inherit;font-size:15px;padding:10px 14px;border-radius:10px;border:0;background:var(--acc);color:#fff;cursor:pointer;margin-top:6px}
+footer{margin-top:40px;font-size:13px;color:var(--mute);border-top:1px solid var(--line);padding-top:14px}
+#back{background:none;border:0;color:var(--acc);font:inherit;font-size:15px;padding:8px 0;cursor:pointer}
+.hide{display:none}
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">Next Ask</div>
+  <div id="home">
+    <h1>Who funds you, and who to ask next.</h1>
+    <p class="sub">For Minnesota nonprofits. Type your group's name. Free, no sign-up.</p>
+    <input id="q" type="search" placeholder="Your nonprofit's name" autocomplete="off" autocapitalize="words" enterkeyhint="search" aria-label="Your nonprofit's name">
+    <ul id="hits"></ul>
+    <p id="loading" class="small">Loading <span data-m="n_grants"></span> grants…</p>
+  </div>
+  <div id="result" class="hide"></div>
+  <footer>
+    <b>Where this comes from.</b> Every gift listed by <span data-m="n_funders"></span> Minnesota foundations and grantmakers on their latest
+    IRS tax return (Form 990-PF, or Schedule I of Form 990), mostly tax year <span data-m="year"></span>: <span data-m="n_grants"></span> gifts,
+    <span data-m="n_grants_mn"></span> of them to Minnesota groups. "Takes applications" means the foundation did not check the
+    "gives only to pre-selected groups" box. How to apply, contacts and deadlines are copied from the return's
+    "application information" section (Part XV) — check the foundation's own site before you send anything.
+    Names in tax returns are typed by hand, so one group can appear under several spellings. Gifts from people,
+    companies and the government are not here. Built from public data; nothing you type leaves your phone.
+    <a href="https://github.com/2016judea/mn-next-ask">Code and data</a>.
+  </footer>
+</main>
+<script src="engine.js"></script>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt = n => '$' + Math.round(n).toLocaleString('en-US');
+const num = n => Number(n).toLocaleString('en-US');
+const pct = x => Math.round(x * 100) + '%';
+const plural = (n, a, b) => num(n) + ' ' + (n === 1 ? a : (b || a + 's'));
+let D = null, state = { picked: [], shown: 10 };
+
+fetch('data/meta.json').then(r => r.json()).then(m => {
+  m.year = m.years[0][0];
+  document.querySelectorAll('[data-m]').forEach(e => e.textContent = typeof m[e.dataset.m] === 'number' ? num(m[e.dataset.m]) : m[e.dataset.m]);
+});
+Promise.all([fetch('data/orgs.json').then(r => r.json()), fetch('data/funders.json').then(r => r.json())]).then(([o, f]) => {
+  D = Engine.index(Object.assign(o, f));
+  $('#loading').classList.add('hide');
+  if ($('#q').value) onType();
+  route();
+});
+
+function onType() {
+  if (!D) return;
+  const q = $('#q').value.trim();
+  const hits = q.length < 2 ? [] : Engine.search(D, q, 8);
+  $('#hits').innerHTML = hits.map(i => {
+    const o = D.orgs[i], n = new Set(o[4].map(g => g[0])).size;
+    return `<li><button data-i="${i}"><b>${esc(o[0])}</b><br><span class="small">${esc(D.cities[o[1]])} · ${n ? plural(n, 'foundation') + ' gave' : 'no foundation gifts on file'}</span></button></li>`;
+  }).join('') || (q.length >= 2 ? '<li class="small" style="padding:8px 2px">No match. Try one key word from your name.</li>' : '');
+}
+$('#q').addEventListener('input', onType);
+$('#hits').addEventListener('click', e => { const b = e.target.closest('button'); if (b) go([+b.dataset.i]); });
+
+function go(picked) { location.hash = 'o=' + picked.join(','); }
+window.addEventListener('hashchange', route);
+function route() {
+  const m = location.hash.match(/o=([\d,]+)/);
+  if (!m || !D) { $('#home').classList.remove('hide'); $('#result').classList.add('hide'); return; }
+  state.picked = m[1].split(',').map(Number).filter(i => D.orgs[i]);
+  state.shown = 10;
+  render(); window.scrollTo(0, 0);
+}
+
+function sentence(s) {
+  s = String(s || '').trim();
+  if (!s || /^(N\/?A|NONE|SEE .*|-)$/i.test(s)) return '';
+  if (s === s.toUpperCase()) s = s.toLowerCase().replace(/(^|[.!?]\s+)([a-z])/g, (_, a, b) => a + b.toUpperCase());
+  return s.replace(/\b(mn|usa|pdf|llc)\b/g, x => x.toUpperCase()).replace(/\bminnesota\b/g, 'Minnesota');
+}
+function phone(p) { p = String(p || '').replace(/\D/g, ''); return p.length === 10 ? `(${p.slice(0,3)}) ${p.slice(3,6)}-${p.slice(6)}` : p; }
+function link(u) {
+  if (!u) return '';
+  let h = u.trim().toLowerCase(); if (!/^https?:/.test(h)) h = 'https://' + h.replace(/^\/+/, '');
+  return `<a href="${esc(h)}" target="_blank" rel="noopener">${esc(u.toLowerCase().replace(/^https?:\/\//, ''))}</a>`;
+}
+function applyBlock(f) {
+  const a = f.a[0] || {}, rows = [];
+  if (f.w) rows.push(['Website', link(f.w)]);
+  const contact = [sentence(a.person) && esc(a.person.replace(/\b\w+/g, w => w[0] + w.slice(1).toLowerCase())), a.phone && `<a href="tel:${esc(a.phone)}">${esc(phone(a.phone))}</a>`, a.email && `<a href="mailto:${esc(a.email.toLowerCase())}">${esc(a.email.toLowerCase())}</a>`].filter(Boolean).join('<br>');
+  if (contact) rows.push(['Contact', contact]);
+  if (a.address) rows.push(['Mail to', esc(a.address.replace(/\b\w+/g, w => /^[A-Z]{2}$/.test(w) && /\b[A-Z]{2} \d/.test(a.address) ? w : w[0] + w.slice(1).toLowerCase()))]);
+  if (sentence(a.form)) rows.push(['What to send', esc(sentence(a.form))]);
+  if (sentence(a.deadline)) rows.push(['Deadline', esc(sentence(a.deadline))]);
+  if (sentence(a.limits)) rows.push(['Limits', esc(sentence(a.limits))]);
+  if (!rows.length) return '<p class="small">No how-to-apply details on its tax return. Look up its website or call.</p>';
+  return '<dl>' + rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('') + '</dl>';
+}
+
+function render() {
+  const P = state.picked, o0 = D.orgs[P[0]];
+  const r = Engine.lookup(D, P);
+  const like = Engine.lookalikes(D, P[0], P);
+  const extra = P.slice(1);
+  const asks = r.asks.slice(0, state.shown);
+  const name = o0[0];
+  let h = `<button id="back" onclick="location.hash=''">← Search another name</button>
+  <div class="who"><h1>${esc(name)}</h1><div class="small">${esc(r.city)}${r.cause ? ' · ' + esc(r.cause) : ''}</div>
+   <div class="big"><div><b>${num(r.renew.length)}</b>${r.renew.length === 1 ? 'funder now' : 'funders now'}</div><div><b>${num(r.asks.length)}</b>to ask next</div></div>
+   ${(like.length || extra.length) ? `<p class="small" style="margin:12px 0 0">Tax returns spell names many ways. Tap any that are also you:</p><div class="chips">${extra.concat(like).map(i => `<button class="chip ${P.includes(i) ? 'on' : ''}" data-t="${i}">${esc(D.orgs[i][0])} · ${esc(D.cities[D.orgs[i][1]])}</button>`).join('')}</div>` : ''}
+  </div>`;
+
+  h += `<h2>Ask these next</h2><p class="small" style="margin:0">Ranked by how much they fund groups like yours. None has funded you yet.</p>`;
+  if (!asks.length) h += `<div class="empty">No good fits found yet. Try adding other spellings of your name above.</div>`;
+  asks.forEach((c, k) => {
+    const f = c.f, why = [];
+    if (c.peerN) why.push(`Funds ${plural(c.peerN, 'group')} that share your funders`);
+    if (c.causeN && r.cause) why.push(`${pct(c.causeShare)} of its Minnesota gifts go to ${esc(r.cause.toLowerCase())} groups`);
+    if (c.cityN) why.push(`Gave ${plural(c.cityN, 'gift')} in ${esc(r.city)}`);
+    const ex = c.peers.map(i => Engine.peerGift(D, c.fi, i)).filter(Boolean).slice(0, 2);
+    h += `<div class="card"><h3><span class="rank">${k + 1}</span>${esc(f.n)}</h3>
+      <div class="money">Typical gift <b>${fmt(f.med)}</b> · ${plural(f.m, 'Minnesota gift')} in ${esc(f.y)}</div>
+      <ul class="why">${why.map(w => `<li>${w}</li>`).join('')}</ul>
+      ${ex.length ? `<p class="small" style="margin:8px 0 0">${ex.map(e => `Gave ${fmt(e.amt)} to ${esc(e.org)} (${esc(e.city)})`).join(' · ')}</p>` : ''}
+      <details><summary>How to apply</summary>${applyBlock(f)}</details>
+      <details data-letter="${c.fi}"><summary>Draft a letter</summary><div class="letter"></div></details>
+    </div>`;
+  });
+  if (r.asks.length > state.shown) h += `<button class="more" id="more">Show ${Math.min(10, r.asks.length - state.shown)} more</button>`;
+
+  h += `<h2>Your funders</h2><p class="small" style="margin:0">Your renewals. Newest gift first.</p>`;
+  if (!r.renew.length) h += `<div class="empty">No Minnesota foundation listed a gift to this name on its latest return. The list above still works: it uses your cause and town.</div>`;
+  else h += `<table class="renew"><tbody>${r.renew.map(x => {
+      const g = x.gs.slice().sort((a, b) => b.yr - a.yr || b.amt - a.amt);
+      return `<tr><td><b>${esc(x.f.n)}</b>${x.f.o === 1 ? '' : x.f.o === 0 ? ' <span class="small">· invite only</span>' : ''}<br><span class="small">${g.map(y => esc(y.yr) + (sentence(y.why) ? ': ' + esc(sentence(y.why)) : '')).slice(0, 2).join('<br>')}</span></td><td class="n">${fmt(x.total)}</td></tr>`;
+    }).join('')}</tbody></table>`;
+
+  $('#home').classList.add('hide');
+  const R = $('#result'); R.classList.remove('hide'); R.innerHTML = h;
+  R.querySelectorAll('[data-t]').forEach(b => b.onclick = () => {
+    const i = +b.dataset.t, p = state.picked.includes(i) ? state.picked.filter(x => x !== i) : state.picked.concat(i);
+    go(p);
+  });
+  const more = $('#more'); if (more) more.onclick = () => { state.shown += 10; render(); };
+  R.querySelectorAll('details[data-letter]').forEach(d => d.addEventListener('toggle', () => { if (d.open) letter(d, +d.dataset.letter, r); }));
+}
+
+// One saved profile, a letter per funder. Stays on this phone.
+function getProf() { try { return JSON.parse(localStorage.getItem('nextask.profile') || '{}'); } catch (e) { return {}; } }
+function setProf(p) { try { localStorage.setItem('nextask.profile', JSON.stringify(p)); } catch (e) {} }
+function letter(d, fi, r) {
+  const box = d.querySelector('.letter'), f = D.funders[fi], c = r.asks.find(x => x.fi === fi);
+  const p = Object.assign({ org: D.orgs[state.picked[0]][0], what: '', ask: '', name: '' }, getProf());
+  box.innerHTML = `<div class="prof">
+    <label>What your group does, in one line (saved for every letter)</label><input data-k="what" value="${esc(p.what)}" placeholder="We give free after-school tutoring to 120 kids in Duluth">
+    <label>What this money would pay for</label><input data-k="ask" value="${esc(p.ask)}" placeholder="Two more tutors for the spring">
+    <label>Your name and title</label><input data-k="name" value="${esc(p.name)}" placeholder="Jane Doe, Executive Director"></div>
+    <textarea readonly></textarea><button class="btn">Copy letter</button> <span class="small"></span>`;
+  const ta = box.querySelector('textarea');
+  const draw = () => {
+    const q = getProf(), ex = c.peers.map(i => Engine.peerGift(D, fi, i)).filter(Boolean)[0];
+    const a = f.a[0] || {};
+    const to = a.person && !/foundation|bank|trust/i.test(a.person) ? a.person.replace(/\b\w+/g, w => w[0] + w.slice(1).toLowerCase()) : '';
+    ta.value = `Dear ${to || f.n + ' grants committee'},
+
+I'm writing to ask ${f.n} to consider a gift of ${fmt(f.med)} to ${p.org}.
+
+${q.what || '[What your group does, in one line.]'}
+
+${ex ? `Your foundation already backs work close to ours, like your gift to ${ex.org}. ` : ''}${r.cause ? `We are a ${r.cause.toLowerCase()} group in ${r.city}. ` : `We are based in ${r.city}. `}A gift from you would pay for ${q.ask ? q.ask.replace(/^\w/, x => x.toLowerCase()) : '[what the money would pay for]'}.
+
+Thank you for your time. I'd be glad to talk or send anything else you need.
+
+${q.name || '[Your name and title]'}
+${p.org}`;
+  };
+  box.querySelectorAll('input').forEach(i => i.oninput = () => { const q = getProf(); q[i.dataset.k] = i.value; setProf(q); draw(); });
+  box.querySelector('.btn').onclick = () => { navigator.clipboard?.writeText(ta.value).then(() => box.querySelector('span.small').textContent = 'Copied.'); };
+  draw();
+}
+</script>
+</body>
+</html>
