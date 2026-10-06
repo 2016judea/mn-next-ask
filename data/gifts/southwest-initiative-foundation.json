@@ -1,0 +1,750 @@
+{
+"ein": "411555592",
+"tax_year": "2023",
+"grants": [
+{
+"name": "ADULT TRAINING AND HABILITATION CENTER - WEST",
+"city": "HUTCHINSON",
+"st": "MN",
+"ein": "416052785",
+"amt": 8500.0,
+"why": "TOUR DE FRIENDS BIKING CLUB ATCH/WEST"
+},
+{
+"name": "APPLETON AREA HEALTH",
+"city": "APPLETON",
+"st": "MN",
+"ein": "410966278",
+"amt": 6500.0,
+"why": "AAH CLINIC WAITING AREA REFRESH"
+},
+{
+"name": "AUGUSTANA UNIVERSITY",
+"city": "SIOUX FALLS",
+"st": "SD",
+"ein": "460224588",
+"amt": 9390.0,
+"why": "ORGANIZATIONAL SUPPORT"
+},
+{
+"name": "BENSON GOLF CLUB FOUNDATION",
+"city": "BENSON",
+"st": "MN",
+"ein": "820916866",
+"amt": 10000.0,
+"why": "GOLF CART PATH"
+},
+{
+"name": "BLUE AND GOLD EDUCATIONAL FOUNDATION - DIST 891",
+"city": "CANBY",
+"st": "MN",
+"ein": "411522315",
+"amt": 31658.0,
+"why": "FISCAL YEAR 2024 DISBURSEMENT"
+},
+{
+"name": "CHILDREN'S DENTAL SERVICES",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "410857929",
+"amt": 15000.0,
+"why": "EXPANDED ACCESS TO DENTAL CARE AND EDUCATION"
+},
+{
+"name": "CITY OF BALATON",
+"city": "BALATON",
+"st": "MN",
+"ein": "416004955",
+"amt": 58936.0,
+"why": "FIRE DEPARTMENT GENERATOR"
+},
+{
+"name": "CITY OF BENSON",
+"city": "BENSON",
+"st": "MN",
+"ein": "416004975",
+"amt": 10000.0,
+"why": "2ND SLIDE BY 2025"
+},
+{
+"name": "CITY OF CLARKFIELD",
+"city": "CLARKFIELD",
+"st": "MN",
+"ein": "416005042",
+"amt": 15077.0,
+"why": "TURNOUT GEAR REPLACEMENT"
+},
+{
+"name": "CITY OF COTTONWOOD",
+"city": "COTTONWOOD",
+"st": "MN",
+"ein": "416005075",
+"amt": 31825.0,
+"why": "SPLASH PAD"
+},
+{
+"name": "CITY OF DARWIN",
+"city": "DARWIN",
+"st": "MN",
+"ein": "416008390",
+"amt": 7862.0,
+"why": "DARWIN PROJECTS 2023"
+},
+{
+"name": "CITY OF DAWSON",
+"city": "DAWSON",
+"st": "MN",
+"ein": "416005088",
+"amt": 12500.0,
+"why": "DAWSON GNOME COMMITTEE"
+},
+{
+"name": "CITY OF GRANITE FALLS",
+"city": "GRANITE FALLS",
+"st": "MN",
+"ein": "416005203",
+"amt": 79588.0,
+"why": "RICE PARK PLAYGROUND"
+},
+{
+"name": "CITY OF HENDRICKS",
+"city": "HENDRICKS",
+"st": "MN",
+"ein": "416005227",
+"amt": 15500.0,
+"why": "HENDRICKS FIRE DEPARTMENT"
+},
+{
+"name": "CITY OF HUTCHINSON",
+"city": "HUTCHINSON",
+"st": "MN",
+"ein": "416005253",
+"amt": 9500.0,
+"why": "AFS - TALL, FRIEND OLD FRIEND SCULPTURE RESTORATION"
+},
+{
+"name": "CITY OF IVANHOE",
+"city": "IVANHOE",
+"st": "MN",
+"ein": "416005261",
+"amt": 16000.0,
+"why": "POOL SLIDE"
+},
+{
+"name": "CITY OF LISMORE",
+"city": "LISMORE",
+"st": "MN",
+"ein": "416005319",
+"amt": 8000.0,
+"why": "PARK BATHROOM UPDATE & BASEBALL FIELD FENCING"
+},
+{
+"name": "CITY OF LITCHFIELD",
+"city": "LITCHFIELD",
+"st": "MN",
+"ein": "416005320",
+"amt": 152042.0,
+"why": "LITCHFIELD AREA RECREATION CENTER"
+},
+{
+"name": "CITY OF MARSHALL",
+"city": "MARSHALL",
+"st": "MN",
+"ein": "416005351",
+"amt": 46736.0,
+"why": "ADULT COMMUNITY CENTER/PHASE 1 EQUIPMENT UPGRADE"
+},
+{
+"name": "CITY OF MORTON",
+"city": "MORTON",
+"st": "MN",
+"ein": "411619901",
+"amt": 18200.0,
+"why": "SKATE PARK - MORTON AREA COMMUNITY FDN ENDOWMENT"
+},
+{
+"name": "CITY OF TYLER",
+"city": "TYLER",
+"st": "MN",
+"ein": "416005587",
+"amt": 89305.0,
+"why": "TYLER WELCOME SIGN"
+},
+{
+"name": "CITY OF WILLMAR",
+"city": "WILLMAR",
+"st": "MN",
+"ein": "416005645",
+"amt": 16000.0,
+"why": "WILLMAR WELCOMING WEEK AND VIDEO"
+},
+{
+"name": "CITY OF WILMONT",
+"city": "WILMONT",
+"st": "MN",
+"ein": "416005646",
+"amt": 6000.0,
+"why": "STRUCTURAL FIRE FIGHTING GEAR"
+},
+{
+"name": "CITY OF WINSTED",
+"city": "WINSTED",
+"st": "MN",
+"ein": "416005652",
+"amt": 10000.0,
+"why": "SENIORS ACTIVE IN WINSTED"
+},
+{
+"name": "CITY OF WORTHINGTON",
+"city": "WORTHINGTON",
+"st": "MN",
+"ein": "416005656",
+"amt": 8000.0,
+"why": "BUILDING RELATIONSHIPS: CREATING ART WITH THE YOUNG AND YOUNG AT HEART"
+},
+{
+"name": "COMMON CUP MINISTRY",
+"city": "HUTCHINSON",
+"st": "MN",
+"ein": "270012506",
+"amt": 6500.0,
+"why": "COMMON CUP MINISTRY CHILDREN'S PROGRAMS"
+},
+{
+"name": "DEPARTMENT OF PUBLIC TRANSFORMATION",
+"city": "GRANITE FALLS",
+"st": "MN",
+"ein": "830770235",
+"amt": 255000.0,
+"why": "YES! HOUSE CAPITAL CAMPAIGN"
+},
+{
+"name": "ELKS LODGE NUMBER 2287 INC",
+"city": "WORTHINGTON",
+"st": "MN",
+"ein": "410874339",
+"amt": 30000.0,
+"why": "WORTHINGTON ELKS LODGE - MSERP"
+},
+{
+"name": "FOUNDATION FOR INNOVATION IN EDUCATION",
+"city": "MARSHALL",
+"st": "MN",
+"ein": "824640555",
+"amt": 12000.0,
+"why": "59 CORRIDOR CREATING ENTREPRENEURIAL OPPORTUNITIES (CEO)"
+},
+{
+"name": "FRIENDS OF THE ORCHESTRA LTD",
+"city": "MARSHALL",
+"st": "MN",
+"ein": "411799541",
+"amt": 5830.0,
+"why": "FISCAL YEAR 2024 DISBURSEMENT"
+},
+{
+"name": "GLENCOE REGIONAL HEALTH SERVICES FOUNDATION",
+"city": "GLENCOE",
+"st": "MN",
+"ein": "411625505",
+"amt": 20500.0,
+"why": "ANIMAL ASSISTED ACTIVITY PROGRAM"
+},
+{
+"name": "GRANITE FALLS LIVING AT HOMEBLOCK NURSING",
+"city": "GRANITE FALLS",
+"st": "MN",
+"ein": "411971745",
+"amt": 6800.0,
+"why": "MARKETING MATERIAL DEVELOPMENT"
+},
+{
+"name": "GREATER MILAN INITIATIVE",
+"city": "MILAN",
+"st": "MN",
+"ein": "260774267",
+"amt": 10000.0,
+"why": "THE CIRCLE CAFE - PAUL AND ALMA SCHWAN AGING TRUST FUND ENDOWMENT ATF"
+},
+{
+"name": "HANCOCK CHRISTIAN REFORMED CHURCH",
+"city": "HANCOCK",
+"st": "MN",
+"ein": "411478362",
+"amt": 7200.0,
+"why": "MISSION SUPPORT - DARYL AND NANCY DOSDALL ADVISED FUND NE"
+},
+{
+"name": "HEART OF MINNESOTA ANIMAL SHELTER",
+"city": "HUTCHINSON",
+"st": "MN",
+"ein": "411933351",
+"amt": 6000.0,
+"why": "PHASE 2 OF DOG BUILDING CONSTRUCTION PROJECT"
+},
+{
+"name": "HENDRICKS COMMUNITY FOUNDATION",
+"city": "HENDRICKS",
+"st": "MN",
+"ein": "331067345",
+"amt": 10000.0,
+"why": "VETERAN'S MEMORIAL PARK - BLAZING STAR COMMUNITY ADVISED FUND NE"
+},
+{
+"name": "HENDRICKS COMMUNITY HOSPITAL ASSN & RETIREMENT HOME",
+"city": "HENDRICKS",
+"st": "MN",
+"ein": "410307617",
+"amt": 9200.0,
+"why": "TRAINING SUPPORT"
+},
+{
+"name": "HUTCHINSON AREA COMMUNITY FOUNDATION",
+"city": "HUTCHINSON",
+"st": "MN",
+"ein": "411938474",
+"amt": 24041.0,
+"why": "BOHEMIAN NATIONAL CEMETERY"
+},
+{
+"name": "IMMIGRANT LAW CENTER OF MINNESOTA",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "410909036",
+"amt": 7000.0,
+"why": "IMMIGRATION SERVICES IN SW MN"
+},
+{
+"name": "ISD #173 - MOUNTAIN LAKE",
+"city": "MOUNTAIN LAKE",
+"st": "MN",
+"ein": "416000682",
+"amt": 5500.0,
+"why": "SKATING TO A HEALTHY FUTURE"
+},
+{
+"name": "ISD #177 - WINDOM",
+"city": "WINDOM",
+"st": "MN",
+"ein": "416000680",
+"amt": 7505.0,
+"why": "GENERATION GENIUS SCIENCE & MATH"
+},
+{
+"name": "ISD #2159 - BUFFALO LAKE-HECTOR-STEWART",
+"city": "HECTOR",
+"st": "MN",
+"ein": "411751593",
+"amt": 18617.0,
+"why": "2024 TEACHER GRANT REQUESTS"
+},
+{
+"name": "ISD #2180 - MACCRAY",
+"city": "CLARA CITY",
+"st": "MN",
+"ein": "411783004",
+"amt": 10550.0,
+"why": "2024 TEACHER GRANT REQUEST"
+},
+{
+"name": "ISD #2190 - YELLOW MEDICINE EAST",
+"city": "GRANITE FALLS",
+"st": "MN",
+"ein": "416004911",
+"amt": 8950.0,
+"why": "KEYS TO SUCCESS - 4TH GRADE PIANO PROJECT"
+},
+{
+"name": "ISD #2534 - BOLD SCHOOLS",
+"city": "OLIVIA",
+"st": "MN",
+"ein": "411719361",
+"amt": 13990.0,
+"why": "LIGHTING FOR THE BOLD MUSICAL PROGRAM"
+},
+{
+"name": "ISD #2853 - LAC QUI PARLE VALLEY",
+"city": "MADISON",
+"st": "MN",
+"ein": "411837788",
+"amt": 17454.0,
+"why": "HOLIDAY MOVIE AT THE GRAND THEATER"
+},
+{
+"name": "ISD #2890 - RENVILLE COUNTY WEST SCHOOLS",
+"city": "RENVILLE",
+"st": "MN",
+"ein": "411813675",
+"amt": 7560.0,
+"why": "2023-24 SCHOOL PROJECTS"
+},
+{
+"name": "ISD #2895 - JACKSON COUNTY CENTRAL",
+"city": "JACKSON",
+"st": "MN",
+"ein": "411872029",
+"amt": 32695.0,
+"why": "SPECIAL EDUCATION GRANT & JCC FFA ALUMNI"
+},
+{
+"name": "ISD #2898 - WESTBROOK WALNUT GROVE SCHOOLS",
+"city": "WESTBROOK",
+"st": "MN",
+"ein": "416000705",
+"amt": 9750.0,
+"why": "PLUM CREEK PARK BALLFIELD IMPROVEMENTS"
+},
+{
+"name": "ISD #2902 - RUSSELL TYLER RUTHTON PUBLIC SCHOOLS",
+"city": "TYLER",
+"st": "MN",
+"ein": "204928015",
+"amt": 13670.0,
+"why": "BBQ GRILL"
+},
+{
+"name": "ISD #2904 - TRACY AREA SCHOOLS",
+"city": "TRACY",
+"st": "MN",
+"ein": "416002013",
+"amt": 10400.0,
+"why": "PRESCHOOL PLAYGROUND"
+},
+{
+"name": "ISD #330 - HERON LAKE-OKABENA SCHOOLS",
+"city": "HERON LAKE",
+"st": "MN",
+"ein": "411330168",
+"amt": 6980.0,
+"why": "HERON LAKE-OKABENA ELEMENTARY LIBRARY"
+},
+{
+"name": "ISD #423 - HUTCHINSON",
+"city": "HUTCHINSON",
+"st": "MN",
+"ein": "416002222",
+"amt": 9028.0,
+"why": "SOLAR-POWERED ELECTRIC FENCING"
+},
+{
+"name": "ISD #465 - LITCHFIELD SCHOOL",
+"city": "LITCHFIELD",
+"st": "MN",
+"ein": "416002290",
+"amt": 29099.0,
+"why": "2024 HIGH SCHOOL THEATRE AND DANCE WORKSHOP AT MINNESOTA STATE UNIVERSITY MANKATO"
+},
+{
+"name": "ISD #518 - WORTHINGTON",
+"city": "WORTHINGTON",
+"st": "MN",
+"ein": "416008522",
+"amt": 18560.0,
+"why": "READINESS PROGRAM"
+},
+{
+"name": "ISD #777 - BENSON PUBLIC SCHOOLS",
+"city": "BENSON",
+"st": "MN",
+"ein": "416004181",
+"amt": 8000.0,
+"why": "ESPORTS LAB - ROBERT SONSTENG MEMORIAL ENDOWMENT"
+},
+{
+"name": "JACKSON SNOW ANGELS",
+"city": "JACKSON",
+"st": "MN",
+"ein": "854397375",
+"amt": 15122.0,
+"why": "JACKSON SNOW ANGELS TRACTOR"
+},
+{
+"name": "JOHNSON MEMORIAL FOUNDATION",
+"city": "DAWSON",
+"st": "MN",
+"ein": "411678372",
+"amt": 20883.0,
+"why": "FISCAL FISCAL YEAR 2024 DISBURSEMENT"
+},
+{
+"name": "LINCOLN COUNTY HISTORICAL SOCIETY INC",
+"city": "HENDRICKS",
+"st": "MN",
+"ein": "411711763",
+"amt": 8000.0,
+"why": "BUILDING UPGRADE"
+},
+{
+"name": "LUTHERAN SOCIAL SERVICE OF MINNESOTA",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "410872993",
+"amt": 19000.0,
+"why": "NOBLES COUNTY NUTRITIOUS MEALS FOR LOW-INCOME OLDER ADULTS"
+},
+{
+"name": "MADISON ART AND INNOVATION CENTER",
+"city": "MADISON",
+"st": "MN",
+"ein": "922518138",
+"amt": 20000.0,
+"why": "COMMUNITY CARES PROGRAM"
+},
+{
+"name": "MADISON ART GALLERY",
+"city": "MADISON",
+"st": "MN",
+"ein": "862300115",
+"amt": 5250.0,
+"why": "DIGITAL LITERACY LAB - PAUL AND ALMA SCHWAN AGING TRUST FUND ENDOWMENT ATF"
+},
+{
+"name": "MAKOCE IKIKCUPI",
+"city": "GRANITE FALLS",
+"st": "MN",
+"ein": "474008717",
+"amt": 15000.0,
+"why": "MISSION SUPPORT"
+},
+{
+"name": "MCLEOD COUNTY",
+"city": "GLENCOE",
+"st": "MN",
+"ein": "416005841",
+"amt": 12000.0,
+"why": "UNIVERSAL CONTACT"
+},
+{
+"name": "MINI SOTA AGRICULTURAL CHILDREN'S MUSEUM",
+"city": "BENSON",
+"st": "MN",
+"ein": "921619710",
+"amt": 17000.0,
+"why": "CAPITAL PROJECT"
+},
+{
+"name": "MINNESOTA RIVER AREA AGENCY ON AGING INC",
+"city": "MANKATO",
+"st": "MN",
+"ein": "261632413",
+"amt": 105450.0,
+"why": "AGE FRIENDLY COMMUNITY BUILDING PROJECT"
+},
+{
+"name": "MOUNTAIN LAKE CHRISTIAN SCHOOL",
+"city": "MOUNTAIN LAKE",
+"st": "MN",
+"ein": "410783500",
+"amt": 9000.0,
+"why": "SCHOOL SAFETY UPGRADES-PHASE 1"
+},
+{
+"name": "NELSAN-HORTON POST #104 OF THE AMERICAN LEGION DEPARTMENT OF MINNESOTA",
+"city": "LITCHFIELD",
+"st": "MN",
+"ein": "410668419",
+"amt": 34519.0,
+"why": "MSERP - LITCHFIELD AMERICAN LEGION"
+},
+{
+"name": "NOBLES COUNTY HISTORICAL SOCIETY INC",
+"city": "WORTHINGTON",
+"st": "MN",
+"ein": "416029584",
+"amt": 11500.0,
+"why": "HISTORY ON DISPLAY"
+},
+{
+"name": "OUR LADY OF THE LAKES",
+"city": "SPICER",
+"st": "MN",
+"ein": "411308081",
+"amt": 14500.0,
+"why": "MISSION SUPPORT"
+},
+{
+"name": "PET IA-LEIGHTON",
+"city": "PELLA",
+"st": "IA",
+"ein": "451837281",
+"amt": 10000.0,
+"why": "MOBILITY WORLDWIDE - MISSION SUPPORT"
+},
+{
+"name": "PIPESTONE SENIOR CITIZENS CENTER",
+"city": "PIPESTONE",
+"st": "MN",
+"ein": "411470351",
+"amt": 428602.0,
+"why": "SCHROEDER SENIOR CENTER AND FOOD SHELF BUILDING"
+},
+{
+"name": "PRAIRIE FIVE COMMUNITY ACTION COUNCIL INCORPORATED",
+"city": "MONTEVIDEO",
+"st": "MN",
+"ein": "410904802",
+"amt": 5050.0,
+"why": "BENSON/SWIFT COUNTY FOOD SHELF - FREEZER REPLACEMENT"
+},
+{
+"name": "PRAIRIE HOME HOSPICE AND COMMUNITY CARE",
+"city": "MARSHALL",
+"st": "MN",
+"ein": "411494079",
+"amt": 10311.0,
+"why": "FISCAL YEAR 2023 DISBURSEMENTS - PRAIRIE HOME HOSPICE MARSHALL"
+},
+{
+"name": "PRESBYTERIAN HOMES AND SERVICES",
+"city": "ROSEVILLE",
+"st": "MN",
+"ein": "410758756",
+"amt": 7100.0,
+"why": "HUTCHINSON HOSPICE - HUTCHINSON HOSPICE ENDOWMENT"
+},
+{
+"name": "REBUILDING TOGETHER-TWIN CITIES",
+"city": "WINDOM",
+"st": "MN",
+"ein": "411893180",
+"amt": 6500.0,
+"why": "COTTONWOOD COUNTY REBUILDING DAY"
+},
+{
+"name": "ROCK HAVEN CHURCH",
+"city": "GRANITE FALLS",
+"st": "MN",
+"ein": "202420331",
+"amt": 29534.0,
+"why": "MSERP - ROCK HAVEN CHURCH"
+},
+{
+"name": "SAINT JOHN'S SCHOOL OF THEOLOGY AND SEMINARY",
+"city": "COLLEGEVILLE",
+"st": "MN",
+"ein": "453656162",
+"amt": 15000.0,
+"why": "PREPARING FOR A LIFE OF FAITH SERVICE"
+},
+{
+"name": "SOUTH DAKOTA STATE UNIVERSITY",
+"city": "BROOKINGS",
+"st": "SD",
+"ein": "460273801",
+"amt": 13000.0,
+"why": "BERNICE HALVORSON EDUCATION SCHOLARSHIP"
+},
+{
+"name": "SOUTHWEST MINNESOTA PRIVATE INDUSTRY COUNCIL INC",
+"city": "MARSHALL",
+"st": "MN",
+"ein": "411487964",
+"amt": 18465.0,
+"why": "MSERP - SWMNPIC"
+},
+{
+"name": "ST JAMES EPISCOPAL CHURCH",
+"city": "MARSHALL",
+"st": "MN",
+"ein": "416098516",
+"amt": 14631.0,
+"why": "FISCAL YEAR 2024 DISBURSEMENT"
+},
+{
+"name": "ST JOHNS PREPARATORY SCHOOL",
+"city": "COLLEGEVILLE",
+"st": "MN",
+"ein": "410693973",
+"amt": 10000.0,
+"why": "TUITION ASSISTANCE"
+},
+{
+"name": "ST MARY'S SCHOOL WORTHINGTON",
+"city": "WORTHINGTON",
+"st": "MN",
+"ein": "411539377",
+"amt": 5744.0,
+"why": "FISCAL YEAR 2024 DISBURSEMENT"
+},
+{
+"name": "SWIFT COUNTY HISTORICAL SOCIETY",
+"city": "BENSON",
+"st": "MN",
+"ein": "410856396",
+"amt": 10000.0,
+"why": "1871 DISTRICT #6 SCHOOL HOUSE EDUCATIONAL PROJECT"
+},
+{
+"name": "TEUBY CONTINUED",
+"city": "GLENCOE",
+"st": "MN",
+"ein": "842398238",
+"amt": 7500.0,
+"why": "TEEN MENTAL HEALTH FIRST AID TRAINING"
+},
+{
+"name": "THE PAGES OF OUR COMMUNITIES FOUNDATION",
+"city": "OLIVIA",
+"st": "MN",
+"ein": "852677924",
+"amt": 11600.0,
+"why": "2023 RENVILLE COUNTY WALK IN THE PARK"
+},
+{
+"name": "THE YOUNG MEN'S CHRISTIAN ASSOCIATION OF WORTHINGTON MINNESOTA",
+"city": "WORTHINGTON",
+"st": "MN",
+"ein": "416007569",
+"amt": 9732.0,
+"why": "FISCAL YEAR 2024 DISBURSEMENT"
+},
+{
+"name": "UNITED COMMUNITY ACTION PARTNERSHIP INC",
+"city": "MARSHALL",
+"st": "MN",
+"ein": "410904860",
+"amt": 7000.0,
+"why": "MEEKER WELCOME HOME BASKETS"
+},
+{
+"name": "UNITED METHODIST CHURCH OF MONTEVIDEO",
+"city": "MONTEVIDEO",
+"st": "MN",
+"ein": "411463080",
+"amt": 20000.0,
+"why": "MISSION SUPPORT"
+},
+{
+"name": "UNITED WAY OF WEST CENTRAL MINNESOTA",
+"city": "WILLMAR",
+"st": "MN",
+"ein": "410844871",
+"amt": 9900.0,
+"why": "MISSION SUPPORT"
+},
+{
+"name": "WALLIN EDUCATION PARTNERS",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "208505156",
+"amt": 134201.0,
+"why": "FY24 YELLOW MEDICINE EAST SCHOLARSHIPS"
+},
+{
+"name": "WILLMAR AREA COMMUNITY FOUNDATION",
+"city": "WILLMAR",
+"st": "MN",
+"ein": "363412544",
+"amt": 11500.0,
+"why": "MISSION SUPPORT"
+},
+{
+"name": "WOLF RIDGE ENVIRONMENTAL LEARNING CENTER",
+"city": "FINLAND",
+"st": "MN",
+"ein": "411251705",
+"amt": 10000.0,
+"why": "MISSION SUPPORT"
+}
+]
+}

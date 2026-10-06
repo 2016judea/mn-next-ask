@@ -7,6 +7,7 @@
   }
   function keyToks(s) { return toks(s).filter(t => !STOP.has(t)); }
 
+  const CORE = new Set(['Minneapolis', 'Saint Paul']);
   function index(D) {
     D.tok = D.orgs.map(o => keyToks(o[0]));
     D.byFunder = D.funders.map(() => []);
@@ -21,13 +22,14 @@
       const c = {}; for (const oi of D.byFunder[fi]) { const k = D.orgs[oi][1]; c[k] = (c[k] || 0) + 1; }
       return c;
     });
+    // share of a funder's groups outside Minneapolis and Saint Paul: near zero means it is a metro-only funder
+    D.fOut = D.funders.map((f, fi) => { const R = D.byFunder[fi]; if (!R.length) return 0; let n = 0; for (const oi of R) if (!CORE.has(D.cities[D.orgs[oi][1]])) n++; return n / R.length; });
     D.fHome = D.fCity.map((c, fi) => {
       let city = -1, n = 0; for (const k in c) if (c[k] > n) { n = c[k]; city = +k; }
       return { city, share: D.byFunder[fi].length ? n / D.byFunder[fi].length : 0 };
     });
     return D;
   }
-  const CORE = new Set(['Minneapolis', 'Saint Paul']);
 
   // Name search: every query word must prefix-match a word in the name.
   function search(D, q, limit) {
@@ -100,6 +102,8 @@
       // a funder that gives mostly to one other town (not the metro core) is not a fit elsewhere
       const h = D.fHome[fi];
       if (h.share > 0.6 && cityN === 0 && !CORE.has(D.cities[h.city])) return;
+      // and a metro-only funder is not a fit for a group out in the state
+      if (!CORE.has(D.cities[city]) && cityN === 0 && D.fOut[fi] < 0.15) return;
       peers.sort((a, b) => b[1] - a[1]);
       cands.push({ fi, f, peer, peerN: peers.length, peers: peers.slice(0, 3).map(p => p[0]), causeN, causeShare, cityN });
     });

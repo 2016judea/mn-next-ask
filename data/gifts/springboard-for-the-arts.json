@@ -1,0 +1,582 @@
+{
+"ein": "411690483",
+"tax_year": "2023",
+"grants": [
+{
+"name": "ALANNA MORRIS",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "105763936",
+"amt": 20861.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "ANDREA BAGDON",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "475042848",
+"amt": 5975.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "ANDREW LOOZE",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "391066721",
+"amt": 7865.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "ARTEMIS BROWN",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "542455194",
+"amt": 9300.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "BANS PRODUCTIONS LLC",
+"city": "SHAKOPEE",
+"st": "MN",
+"ein": "922868783",
+"amt": 12600.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "BART BUCH",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "483884781",
+"amt": 26400.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "BELVILLE PRODUCTIONS LLC",
+"city": "SARTELL",
+"st": "MN",
+"ein": "922889818",
+"amt": 18749.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "BRENNA MOSSER",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "474235943",
+"amt": 20496.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "BURN SOMETHING COLLECTIVE LLC",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "852558083",
+"amt": 7600.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "CARMEN LINCOLN",
+"city": "COTTAGE GROVE",
+"st": "MN",
+"ein": "658401991",
+"amt": 9348.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "CHARLES GORCZYNSKI",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "399981422",
+"amt": 5460.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "COW TIPPING PRESS",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "812431227",
+"amt": 100032.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "DAMIAN LEVERETT",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "225738855",
+"amt": 7890.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "DANCE MN",
+"city": "EDINA",
+"st": "MN",
+"ein": "881443231",
+"amt": 12349.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "DANCECO LLC",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "824235716",
+"amt": 15500.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "DANGER BOAT PRODUCTIONS LLC",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "454646985",
+"amt": 9350.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "DARRIUS STRONG",
+"city": "BURNSVILLE",
+"st": "MN",
+"ein": "341842239",
+"amt": 17462.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "DEBORAH JINZA THAYER",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "548721507",
+"amt": 8000.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "DEBORAH RAMOS",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "455858903",
+"amt": 59815.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "DIVER VAN AVERY",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "469152979",
+"amt": 32550.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "DONALD TESLOW II",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "474525600",
+"amt": 10457.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "EBONY AYA",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "843615769",
+"amt": 25038.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "EMERGING CURATORS INSTITUTE",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "834640140",
+"amt": 105775.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "ERIC LARSON",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "387139540",
+"amt": 11092.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "ERNEST BRIGGS",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "469088272",
+"amt": 16521.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "EYE OF THE HEART CENTER",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "920881954",
+"amt": 12568.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "FLIP THE SCRIPT LLC",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "921030733",
+"amt": 27482.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "FORTUNE'S FOOL",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "203658400",
+"amt": 16700.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "FUNNY ASIAN WOMEN KOLLECTIVE",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "830635886",
+"amt": 49024.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "GO KO GO LLC",
+"city": "SAVAGE",
+"st": "MN",
+"ein": "812656047",
+"amt": 60867.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "GRACE MINNESOTA",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "264678513",
+"amt": 40000.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "HATCH DANCE",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "880622332",
+"amt": 30000.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "HOLY COW PRESS",
+"city": "DULUTH",
+"st": "MN",
+"ein": "469565394",
+"amt": 12705.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "JAMES EVEREST",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "469900774",
+"amt": 13950.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "JAMES TENBENSEL",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "468420139",
+"amt": 14734.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "JAYSON HOHLEN",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "477297649",
+"amt": 7000.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "JENNIFER GLAWS",
+"city": "MOUND",
+"st": "MN",
+"ein": "339783853",
+"amt": 24322.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "JESSICA REYES",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "815414993",
+"amt": 23715.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "KALEENA MILLER",
+"city": "NEW YORK",
+"st": "NY",
+"ein": "471061842",
+"amt": 8847.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "KAREN SHERMAN",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "498705717",
+"amt": 12853.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "KITH & KIN CHORUS LLC",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "933508693",
+"amt": 33785.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "LESLIE PARKER DANCE PROJECT",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "833702467",
+"amt": 45686.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "LIGHTNING ROD",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "833519725",
+"amt": 35477.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "MAKE A SCENE LLC",
+"city": "RICHFIELD",
+"st": "MN",
+"ein": "850993924",
+"amt": 17900.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "MARY PRESCOTT",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "474172457",
+"amt": 32550.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "MILLION ARTIST MOVEMENT",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "473237175",
+"amt": 44175.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "NANCY COOK",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "292488889",
+"amt": 20202.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "NARATE KEYS",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "471250994",
+"amt": 9300.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "NATHAN ALLISTER",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "477170151",
+"amt": 19213.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "NATIVE SKYWATCHERS",
+"city": "MAPLE GROVE",
+"st": "MN",
+"ein": "812015231",
+"amt": 8250.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "OPERA ON THE LAKE LLC",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "834165132",
+"amt": 5805.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "PHILLIP MCGRAW",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "329825581",
+"amt": 18250.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "PRAXIS PHOTO ARTS CENTER",
+"city": "BURNSVILLE",
+"st": "MN",
+"ein": "833485541",
+"amt": 72360.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "RARE PRODUCTIONS",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "861501196",
+"amt": 87700.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "REASONS FOR MOVING",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "993113527",
+"amt": 13950.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "RECREATION ARTS",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "844617092",
+"amt": 9292.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "RORY WAKEMUP",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "476741464",
+"amt": 10000.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "SAHAR HASSAN",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "565716402",
+"amt": 15000.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "SCOTT REYNOLDS",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "471082120",
+"amt": 18101.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "SHARON BAILEY",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "587254093",
+"amt": 28500.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "SOBIESKI MUSIC LLC",
+"city": "EAGAN",
+"st": "MN",
+"ein": "882194548",
+"amt": 31500.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "STRIVE PUBLISHING LLC",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "813603371",
+"amt": 6435.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "SUMMIT MUSIC LLC",
+"city": "BLOOMINGTON",
+"st": "MN",
+"ein": "882728136",
+"amt": 7242.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "TANA HARGEST",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "476020636",
+"amt": 13900.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "TANGIBLE COLLECTIVE LLC",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "873981465",
+"amt": 37051.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "THE BUCKET BRIGADE",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "477119006",
+"amt": 34500.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "THEATRE 55",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "832263013",
+"amt": 94856.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "THRESHOLD THEATER LLC",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "502087207",
+"amt": 8150.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "TRILINGUA CINEMA",
+"city": "SAINT PAUL",
+"st": "MN",
+"ein": "851574656",
+"amt": 28362.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "TRU RUTS",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "475411254",
+"amt": 81240.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "VALERIE OLIVEIRO",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "041044438",
+"amt": 56000.0,
+"why": "FISCAL AGENT ACTIVITY"
+},
+{
+"name": "VOICES OF HOPE LLC",
+"city": "MINNEAPOLIS",
+"st": "MN",
+"ein": "821471747",
+"amt": 37200.0,
+"why": "FISCAL AGENT ACTIVITY"
+}
+]
+}
