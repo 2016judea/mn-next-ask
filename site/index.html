@@ -113,12 +113,17 @@ function onType() {
 $('#q').addEventListener('input', onType);
 $('#hits').addEventListener('click', e => { const b = e.target.closest('button'); if (b) go([+b.dataset.i]); });
 
-function go(picked) { location.hash = 'o=' + picked.join(','); }
+// Links carry a name+city slug, not a list position, so they survive a data rebuild.
+function slug(i) { const o = D.orgs[i]; return (o[0] + ' ' + D.cities[o[1]]).toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
+let SLUGS = null;
+function bySlug(x) { if (!SLUGS) { SLUGS = new Map(); D.orgs.forEach((_, i) => { const k = slug(i); if (!SLUGS.has(k)) SLUGS.set(k, i); }); } return SLUGS.get(x); }
+function go(picked) { location.hash = 'n=' + picked.map(slug).join('+'); }
 window.addEventListener('hashchange', route);
 function route() {
-  const m = location.hash.match(/o=([\d,]+)/);
-  if (!m || !D) { $('#home').classList.remove('hide'); $('#result').classList.add('hide'); return; }
-  state.picked = m[1].split(',').map(Number).filter(i => D.orgs[i]);
+  const m = location.hash.match(/o=([\d,]+)/), n = location.hash.match(/n=([a-z0-9+-]+)/);
+  const picked = !D ? [] : n ? n[1].split('+').map(bySlug).filter(i => i !== undefined) : m ? m[1].split(',').map(Number).filter(i => D.orgs[i]) : [];
+  if (!picked.length) { $('#home').classList.remove('hide'); $('#result').classList.add('hide'); return; }
+  state.picked = picked;
   state.shown = 10;
   render(); window.scrollTo(0, 0);
 }
