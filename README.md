@@ -1,5 +1,7 @@
 # Next Ask
 
+**Live:** https://mn-next-ask.vercel.app
+
 **Free tool for Minnesota nonprofits: type your group's name, see every foundation that already funds you, and the ones to ask next — with how to apply.**
 
 Live: https://mn-next-ask.vercel.app
