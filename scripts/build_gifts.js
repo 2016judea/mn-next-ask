@@ -3,6 +3,11 @@
 // Grantee pages read data/gifts/<key>.json (the giver's own Schedule I); city pages read the site data.
 const fs = require('fs'), path = require('path');
 const Engine = require('../site/engine.js');
+// Vercel Web Analytics + the persistent per-reader id and touch events (copy of
+// bricks/scripts/outreach/reader_events.js — refresh it from there, don't fork it).
+const TRACK = '<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};</script>'
+  + '<script defer src="/_vercel/insights/script.js"></script>'
+  + '<script>' + fs.readFileSync(path.join(__dirname, 'reader_events.js'), 'utf8').trim() + '</script>';
 const root = path.join(__dirname, '..');
 const D = Object.assign(JSON.parse(fs.readFileSync(root + '/site/data/orgs.json')), JSON.parse(fs.readFileSync(root + '/site/data/funders.json')));
 Engine.index(D);
@@ -61,7 +66,7 @@ a{color:var(--acc)}
 .n{color:var(--acc);font-weight:700}
 footer{margin-top:36px;font-size:13px;color:var(--mute);border-top:1px solid var(--line);padding-top:12px}
 @media print{#f{display:none}body{background:#fff}.card{border-color:#ccc}}
-</style></head><body><main>
+</style>${TRACK}</head><body><main>
 <div class="brand">Made for you · free</div>
 <h1>${esc(h1)}</h1>
 <p class="lede">${lede}</p>
